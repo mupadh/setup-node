@@ -1,8 +1,10 @@
 name: setup nodejs
 
 on:
-push: [test ]
-pull_request: [test ]
+  push:
+    branches: [ test ]
+  pull_request:
+    branches: [ test ]
 
 runs-on: ubuntu-latest
 
