@@ -6,9 +6,9 @@ on:
   pull_request:
     branches: [ main ]
 
-runs-on: ubuntu-latest
+ runs-on: ubuntu-latest
 
-jobs: 
+ jobs: 
  build:
  
 steps:
@@ -17,5 +17,5 @@ steps:
   with:
    node-version: '14'
    
--run: npm install
--run: npm test
+- run: npm install
+- run: npm test
